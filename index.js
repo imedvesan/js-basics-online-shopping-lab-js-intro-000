@@ -13,7 +13,7 @@ function addToCart(item) {
  // write your code here
  var itemPrice = Math.floor(Math.random()*101);
  Object.assign({}, cart, {itemName:'item',itemPrice:'itemPrice'});
- return <itemName> has been added to your cart.
+ return `${itemName} has been added to your cart.`;
 }
 
 function viewCart() {
